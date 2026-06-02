@@ -22,7 +22,16 @@ export const botConfig = {
     // 3 = Watching
     // 4 = Custom
     // 5 = Competing
-    
+    activities: [
+      {
+        // Text users will see (example: "Playing /help | Titan Bot").
+        name: "‎Watching Arizona Department of Public Safety",
+        // Activity type number (0 = Playing).
+        type: 4, 
+      },
+    ],
+  },
+
   // =========================
   // COMMAND BEHAVIOR
   // =========================
@@ -534,7 +543,3 @@ export function getRandomColor() {
 }
 
 export default botConfig;
-
-
-
-
